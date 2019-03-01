@@ -5,7 +5,7 @@ library(tidyverse)
 library(broom)
 
 # data frame : 
-AA_Sex_1 <- read_sav("C:/Users/Personal/AA leche lactancia/datos/AMINOACIDOS POR SEXO_1.sav")
+AA_Sex_1 <- read_sav("C:/Users/Personal/AA leche/datos/AMINOACIDOS POR SEXO_1.sav")
 
 # my functions :
 aaSelect <- function(df, AA){
@@ -21,7 +21,7 @@ aaLong <-  function(df, AA){
   
   aaL[aaL == paste(AA, 'Calostrum', sep = '')] = 1
   aaL[aaL == paste(AA, 'Transition', sep = '')] = 2
-  aaL[aaL == paste(AA, 'Mature2m', sep = '')] = 4
+  aaL[aaL == paste(AA, 'Mature2m', sep = '')] = 8
   aaL[aaL == paste(AA, 'Mature4m', sep = '')] = 16
   
   aaL <- aaL %>% mutate(week = as.numeric(week))
@@ -66,6 +66,7 @@ server <- function(input, output){
   
   AAdf <- reactive({
     AAdf <- aaSelect(AA_Sex_1, input$AA)
+    AAdf <- AAdf %>% filter(!is.na(AAdf$sex))
   })
   
   output$lines <- renderPlot({
