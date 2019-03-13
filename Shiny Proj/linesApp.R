@@ -55,8 +55,10 @@ ui <- fluidPage(
   ),
   
   mainPanel(
-    plotOutput("lines"),
-    plotOutput("linesSex")
+    plotOutput("lines")
+    #plotOutput("lines", hover = hoverOpts(id ="plot_hover"))
+    #verbatimTextOutput("hover_info")
+    #plotOutput("linesSex")
   )
   
 )
@@ -88,6 +90,11 @@ server <- function(input, output){
       geom_line(size = 1.2, alpha = 0.5) + geom_point()
     
   })
+  
+  # output$hover_info <- renderPrint({
+  #   hover = input$plot_hover
+  #   print(hover$x)
+  # })
   
 }
 
