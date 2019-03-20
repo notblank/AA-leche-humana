@@ -1,28 +1,29 @@
 # Fdb version 3
-["bibtex Faa"] 1553095310 "Faa.aux" "Faa.bbl" "Faa" 1553095313
-  "Faa.aux" 1553095311 798 6b5f9e9076062fe37fdf3bb7dadd7b51 ""
-  "c:/texlive/2017/texmf-dist/bibtex/bst/base/plain.bst" 1506774413 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "thebibliography.bib" 0 -1 0 ""
-  (generated)
-  "Faa.blg"
-  "Faa.bbl"
-["xdvipdfmx"] 1553095312 "Faa.xdv" "Faa.pdf" "Faa" 1553095313
-  "Faa.xdv" 1553095311 2096 3f12ac370d072dbf87896de785fff76b "xelatex"
+["xdvipdfmx"] 1553117291 "Faa.xdv" "Faa.pdf" "Faa" 1553117292
+  "Faa.xdv" 1553117291 4384 4a5899d54111e0a81a8e78e640b8e6c9 "xelatex"
   (generated)
   "Faa.pdf"
-["xelatex"] 1553095310 "Faa.tex" "Faa.xdv" "Faa" 1553095313
-  "Faa.aux" 1553095311 798 6b5f9e9076062fe37fdf3bb7dadd7b51 ""
-  "Faa.bbl" 0 -1 0 "bibtex Faa"
-  "Faa.out" 1553095311 48 47e226b3657d39bfa2720ff5741d0bdc ""
-  "Faa.tex" 1553095309 861 cd8137bcfc4d3c5589c2b806d06a131a ""
+["xelatex"] 1553117289 "Faa.tex" "Faa.xdv" "Faa" 1553117292
+  "../week/EAA_W_coeff.png" 1553117135 54711 b46c9b9427bf00f950d88c5a5e894113 ""
+  "../week/NEAA_W_coeff.png" 1553117126 65334 873e5ea03e5281b833a5d0dd0f7dfd6b ""
+  "Faa.aux" 1553117291 1247 e895f9220113935b4d5dc574541a879e ""
+  "Faa.out" 1553117291 211 7b429517910ae1772e4465c3f4426d20 ""
+  "Faa.tex" 1553117285 2007 a4e4d615546b90f267920167751ab4bf ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506776754 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1506784548 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1506773693 1004 54797486969f23fa377b128694d548df ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1506773693 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1506774881 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1506774881 1524 4414a8315f39513458b80dfc63bff03a ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1506774881 1512 f21f83efb36853c0b70002322c1ab3ad ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1506774881 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1506774881 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1506774881 1288 655e228510b4c2a1abe905c368440826 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1506774881 1300 b62933e007d01cfd073f79b963c01526 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1506774881 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1506774881 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1506774881 1116 933a60c408fc0a863a92debe84b2d294 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1506774881 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmbx10.tfm" 1506778473 12076 b54175e02101bea1addf6b2d0197ed12 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm" 1506778473 12088 d750ac78274fa7c9f73ba09914c04f8a ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1506778473 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
@@ -139,7 +140,7 @@
   "c:/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty" 1506784334 55589 34128738f682d033422ca125f82e5d62 ""
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1506784699 3704782 a11ea079aacab8633ff92e4f66e20a63 ""
   (generated)
-  "Faa.aux"
-  "Faa.out"
   "Faa.log"
+  "Faa.out"
   "Faa.xdv"
+  "Faa.aux"
