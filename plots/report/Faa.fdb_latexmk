@@ -1,19 +1,20 @@
 # Fdb version 3
-["xdvipdfmx"] 1553117291 "Faa.xdv" "Faa.pdf" "Faa" 1553117292
-  "Faa.xdv" 1553117291 4384 4a5899d54111e0a81a8e78e640b8e6c9 "xelatex"
+["xdvipdfmx"] 1553206835 "Faa.xdv" "Faa.pdf" "Faa" 1553206837
+  "Faa.xdv" 1553206835 8044 dddfe52246fc230a6cb4657f8b045b30 "xelatex"
   (generated)
   "Faa.pdf"
-["xelatex"] 1553117289 "Faa.tex" "Faa.xdv" "Faa" 1553117292
-  "../week/EAA_W_coeff.png" 1553117135 54711 b46c9b9427bf00f950d88c5a5e894113 ""
-  "../week/NEAA_W_coeff.png" 1553117126 65334 873e5ea03e5281b833a5d0dd0f7dfd6b ""
-  "Faa.aux" 1553117291 1247 e895f9220113935b4d5dc574541a879e ""
-  "Faa.out" 1553117291 211 7b429517910ae1772e4465c3f4426d20 ""
-  "Faa.tex" 1553117285 2007 a4e4d615546b90f267920167751ab4bf ""
+["xelatex"] 1553206833 "Faa.tex" "Faa.xdv" "Faa" 1553206837
+  "../week/EAA_W_coeff.png" 1553201967 54062 830427763f02369f1cf66c75951518bf ""
+  "../week/EAA_simple.png" 1553206205 103731 3eba4be93c4b02e8423769d4e6cbe81d ""
+  "Faa.aux" 1553206835 1535 eec4842403ff859e7401fd076e9b63b3 ""
+  "Faa.out" 1553206835 162 37f8b1c951384696c052bf9b8ecfbc66 ""
+  "Faa.tex" 1553206832 4735 d101808b6b3e728183c7e29ec59188b4 ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506776754 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1506784548 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1506773693 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1506773693 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1506774881 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
+  "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1506774881 1528 abec98dbc43e172678c11b3b9031252a ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1506774881 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1506774881 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1506774881 1520 eccf95517727cb11801f4f1aee3a21b4 ""
