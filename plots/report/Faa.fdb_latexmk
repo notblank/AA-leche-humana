@@ -1,38 +1,38 @@
 # Fdb version 3
-["bibtex Faa"] 1553287719 "Faa.aux" "Faa.bbl" "Faa" 1553287726
-  "Faa.aux" 1553287720 9175 5888c5591b1bf3752c9aeb560ca9ab60 ""
+["bibtex Faa"] 1553609193 "Faa.aux" "Faa.bbl" "Faa" 1553609201
+  "Faa.aux" 1553609195 9287 35676fc12e8d305fac6b54ebe175623e ""
   "c:/texlive/2017/texmf-dist/bibtex/bst/base/plain.bst" 1506774413 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "thebibliography.bib" 0 -1 0 ""
   (generated)
   "Faa.blg"
   "Faa.bbl"
-["xdvipdfmx"] 1553287721 "Faa.xdv" "Faa.pdf" "Faa" 1553287726
-  "Faa.xdv" 1553287720 36120 733c87d69ae001e420d184853aadf826 "xelatex"
+["xdvipdfmx"] 1553609196 "Faa.xdv" "Faa.pdf" "Faa" 1553609201
+  "Faa.xdv" 1553609195 36344 73a581f3e3360485e9d95d26b58d7ff5 "xelatex"
   (generated)
   "Faa.pdf"
-["xelatex"] 1553287719 "Faa.tex" "Faa.xdv" "Faa" 1553287726
+["xelatex"] 1553609193 "Faa.tex" "Faa.xdv" "Faa" 1553609201
   "../sex/EAA_coeff.png" 1553178500 50259 22b4e0c4c6d2a944626b2817072fc1b6 ""
   "../sex/NEAA_coeff.png" 1553178490 60503 8ae5d516e7b91382ed94e40f7619b250 ""
-  "../sex/NEAA_coeff_detail.png" 1553273433 56672 aa0ec5e37c3ffa765f9417d2709120ee ""
+  "../sex/NEAA_coeff_detail.png" 1553607373 57256 45d6e4dfd3b30c34b2243e22d030b00c ""
   "../sex/nutrientsFAA.png" 1553280851 46354 ea7a19b52e0277ac11080c48836a9500 ""
   "../sexweek/EAA_SW_SW_coeff.png" 1553286175 59922 e2b36e6d7ff338c51a72869091952e96 ""
   "../sexweek/EAA_TRP.png" 1553285737 72360 d30713432dd9bf4444be0b1d1f4c06a2 ""
   "../sexweek/EAA_boys.png" 1553285132 78421 5403fe2846a1bafa5c2c8359fa56554f ""
   "../sexweek/EAA_girls.png" 1553285394 108302 fb505a3860eff295cffdb8c090eb5a97 ""
   "../sexweek/NEAA_SW_SW_coeff.png" 1553286219 63474 1e1afd1b816fdbbab941b8700826be14 ""
-  "../sexweek/NEAA_boys.png" 1553287222 123980 b320e77f32ea835e5c3a0af6f6db7874 ""
-  "../sexweek/NEAA_girls.png" 1553287345 64564 1a951aeaa79b2a20412c91b7518003db ""
+  "../sexweek/NEAA_boys.png" 1553608003 127113 9f699eea67fbb9cc65ffc7b3b7942e53 ""
+  "../sexweek/NEAA_girls.png" 1553608020 67730 8f2157d90207b256fb06e21d5f94291f ""
   "../week/EAA_W_coeff.png" 1553201967 54062 830427763f02369f1cf66c75951518bf ""
-  "../week/EAA_complex.png" 1553267390 101213 e34958f93a3389f18e32216510855447 ""
-  "../week/EAA_simple.png" 1553267447 84456 64149aded900dad981777c1990c45a28 ""
+  "../week/EAA_complex.png" 1553608284 106932 0a99dfc5baab2589fc580b25cc7d599f ""
+  "../week/EAA_simple.png" 1553608331 85150 69028fcf2bc05d84d7dadcb1c1179e7b ""
   "../week/NEAA_W_coeff.png" 1553201935 69158 b41060d8a3b7bc0356e1f52e441420b2 ""
   "../week/NEAA_W_coeff_detail.png" 1553201947 59550 2cfe2cd7e4278040b3bacadbfce45fec ""
-  "../week/NEAA_complex.png" 1553268936 67948 532a0ae501f7dfd3adce130f96c9ff60 ""
-  "../week/NEAA_simple.png" 1553280410 100432 387392532bcee8d1cdf938015d6aeedd ""
-  "Faa.aux" 1553287720 9175 5888c5591b1bf3752c9aeb560ca9ab60 ""
+  "../week/NEAA_complex.png" 1553608243 75894 40508cdc69dc136aa3488380a059039c ""
+  "../week/NEAA_simple.png" 1553608266 101349 098f34893801f85ee865cc4b39b1552e ""
+  "Faa.aux" 1553609195 9287 35676fc12e8d305fac6b54ebe175623e ""
   "Faa.bbl" 0 -1 0 "bibtex Faa"
-  "Faa.out" 1553287720 918 45f23baa5babb6a92c8d9d8fd05c2a9d ""
-  "Faa.tex" 1553287715 15554 ff7335bb68c4f8a73c4d7d4e94327353 ""
+  "Faa.out" 1553609195 1018 cb0f1163a8a89de7dfdcc7fc75d1385b ""
+  "Faa.tex" 1553609189 15622 7c0b1632c35fc6b9ad3787d848c59872 ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506776754 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1506784548 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1506773693 1004 54797486969f23fa377b128694d548df ""
@@ -168,6 +168,6 @@
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1506784699 3704782 a11ea079aacab8633ff92e4f66e20a63 ""
   (generated)
   "Faa.out"
-  "Faa.aux"
   "Faa.log"
+  "Faa.aux"
   "Faa.xdv"
