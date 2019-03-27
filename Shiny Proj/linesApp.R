@@ -55,10 +55,10 @@ ui <- fluidPage(
   ),
   
   mainPanel(
-    plotOutput("lines")
+    #plotOutput("lines")
     #plotOutput("lines", hover = hoverOpts(id ="plot_hover"))
     #verbatimTextOutput("hover_info")
-    #plotOutput("linesSex")
+    plotOutput("linesSex")
   )
   
 )

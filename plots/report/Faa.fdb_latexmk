@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex Faa"] 1553609193 "Faa.aux" "Faa.bbl" "Faa" 1553609201
-  "Faa.aux" 1553609195 9287 35676fc12e8d305fac6b54ebe175623e ""
+["bibtex Faa"] 1553699724 "Faa.aux" "Faa.bbl" "Faa" 1553699732
+  "Faa.aux" 1553699726 9315 619013c9904aff19373b30d81b30cf1f ""
   "c:/texlive/2017/texmf-dist/bibtex/bst/base/plain.bst" 1506774413 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "thebibliography.bib" 0 -1 0 ""
   (generated)
   "Faa.blg"
   "Faa.bbl"
-["xdvipdfmx"] 1553609196 "Faa.xdv" "Faa.pdf" "Faa" 1553609201
-  "Faa.xdv" 1553609195 36344 73a581f3e3360485e9d95d26b58d7ff5 "xelatex"
+["xdvipdfmx"] 1553699727 "Faa.xdv" "Faa.pdf" "Faa" 1553699732
+  "Faa.xdv" 1553699726 36368 dfa9fa662dd7dc215b3ad0c69cf8e793 "xelatex"
   (generated)
   "Faa.pdf"
-["xelatex"] 1553609193 "Faa.tex" "Faa.xdv" "Faa" 1553609201
+["xelatex"] 1553699724 "Faa.tex" "Faa.xdv" "Faa" 1553699732
   "../sex/EAA_coeff.png" 1553178500 50259 22b4e0c4c6d2a944626b2817072fc1b6 ""
   "../sex/NEAA_coeff.png" 1553178490 60503 8ae5d516e7b91382ed94e40f7619b250 ""
   "../sex/NEAA_coeff_detail.png" 1553607373 57256 45d6e4dfd3b30c34b2243e22d030b00c ""
@@ -29,10 +29,10 @@
   "../week/NEAA_W_coeff_detail.png" 1553201947 59550 2cfe2cd7e4278040b3bacadbfce45fec ""
   "../week/NEAA_complex.png" 1553608243 75894 40508cdc69dc136aa3488380a059039c ""
   "../week/NEAA_simple.png" 1553608266 101349 098f34893801f85ee865cc4b39b1552e ""
-  "Faa.aux" 1553609195 9287 35676fc12e8d305fac6b54ebe175623e ""
+  "Faa.aux" 1553699726 9315 619013c9904aff19373b30d81b30cf1f ""
   "Faa.bbl" 0 -1 0 "bibtex Faa"
-  "Faa.out" 1553609195 1018 cb0f1163a8a89de7dfdcc7fc75d1385b ""
-  "Faa.tex" 1553609189 15622 7c0b1632c35fc6b9ad3787d848c59872 ""
+  "Faa.out" 1553699726 1018 cb0f1163a8a89de7dfdcc7fc75d1385b ""
+  "Faa.tex" 1553699719 15633 a44d9c661e9946123507bbe8fe10f5c1 ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506776754 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1506784548 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1506773693 1004 54797486969f23fa377b128694d548df ""
@@ -168,6 +168,6 @@
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1506784699 3704782 a11ea079aacab8633ff92e4f66e20a63 ""
   (generated)
   "Faa.out"
-  "Faa.log"
   "Faa.aux"
+  "Faa.log"
   "Faa.xdv"

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  26 MAR 2019 09:06
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  27 MAR 2019 10:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -875,10 +875,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 308.
 Here is how much of TeX's memory you used:
  27879 strings out of 492998
  527120 string characters out of 6137851
- 568743 words of memory out of 5000000
+ 568757 words of memory out of 5000000
  31543 multiletter control sequences out of 15000+600000
  563561 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,7n,54p,10369b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Faa.xdv (24 pages, 36344 bytes).
+Output written on Faa.xdv (24 pages, 36368 bytes).
