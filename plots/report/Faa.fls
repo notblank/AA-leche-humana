@@ -191,6 +191,8 @@ INPUT c:/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2017/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT Faa.aux
 INPUT Faa.aux
 OUTPUT Faa.aux
@@ -254,4 +256,6 @@ INPUT ../sexweek/EAA_TRP.png
 INPUT ../sexweek/NEAA_SW_SW_coeff.png
 INPUT ../sexweek/NEAA_boys.png
 INPUT ../sexweek/NEAA_girls.png
+INPUT ../wANDhc/weight.png
+INPUT ../wANDhc/head_c.png
 INPUT Faa.aux

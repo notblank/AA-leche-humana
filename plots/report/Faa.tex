@@ -8,7 +8,7 @@
 \usepackage{mathtools}
 \usepackage[section]{placeins}
 \usepackage{float}% If comment this, figure moves to Page 2
-
+\usepackage{etoolbox}
 
 \setcounter{figure}{0}
 
@@ -198,7 +198,7 @@ Finally, the sign of TYR is different from that in \cite{NutrientsDutch} but her
 
 \section{If the concentration changes over time, is it different for boys and girls?}
 
-Now we know that there is a time effect for almost all amino acids and a sex effect for $4$ non essential amino acids (GLU, GLY, TYR and CYS). The question now is whether the variation of concentration over time changes for girls and boys.
+Now we know that there is a time effect for almost all amino acids and a sex effect for $4$ non essential amino acids (GLU, GLY, TYR and CYS). In this section I study whether the variation of concentration over time changes for girls and boys.
 
 For the model I add yet another effect:
 
@@ -287,9 +287,90 @@ In both ARG and PRO (figure \ref{fig:NEAA_girls}), the concentration for girls d
   \label{fig:NEAA_girls}
 \end{figure}
 
-\pagebreak
+\clearpage
 
 \part{What to look forward in future experiments?}
+
+Some aspect of the data are not discussed in part I. First I explore if the AA concentration is due to differences in baby weights and sizes. Then, I study the role of the group variable in the concentration.
+
+
+\section{Baby weights and sizes}
+
+Besides the concentrations, sex and group, baby weights and head circumferences were measured too.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{../wANDhc/weight.png}
+  \caption{Mean weight in [g] per week in blue for boys and pink for girls.}
+  \label{fig:weight}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{../wANDhc/head_c.png}
+  \caption{Mean head circumference in [cm] per week in blue for boys and pink for girls.}
+  \label{fig:head_c}
+\end{figure}
+
+Figures \ref{fig:weight} and \ref{fig:head_c} show the mean weight and mean head circumference over time for girls and boys. There are some differences but they are non significant. For example, the estimated coefficients for the regression models:
+
+\begin{equation*}
+weight = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ week \times sex
+\end{equation*}
+
+and
+
+\begin{equation*}
+head = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ week \times sex
+\end{equation*}
+
+are displayed in tables \ref{tab:weight} and \ref{tab:head_c}. Notice that these models do not have an id effect since we are analyzing mean weights and head circumferences.
+
+\begin{table}[!htb]
+\begin{tabular}{lllll}
+ & Estimate & Std. Error & t value & P\left( > |t| \right) \\
+(Intercept) & 3365.70 & 174.91 & 19.243 & 4.3e-05 *** \\
+week & 223.54 & 19.40 & 11.520 & 0.000324 *** \\
+sex (boy) & -185.37 & 247.35 & -0.749 & 0.495267 \\
+week:sex (boy) & 32.75 & 27.44 & 1.194 & 0.298597 \\
+--- &  &  &  &  \\
+Signif. codes: & 0 '***' & 0.001 '**' & 0.01 '*' & 0.05 '.' 0.1 ' ' 1
+\end{tabular}
+\caption{Estimated coefficients for weight.}
+\label{tab:weight}
+\end{table}
+
+\begin{table}[!htb]
+\begin{tabular}{lllll}
+ & Estimate & Std. Error & t value & P\left( > |t| \right)\\
+(Intercept) & 34.07687 & 0.66572 & 51.188 & 8.72e-07 *** \\
+week & 0.36628 & 0.07385 & 4.959 & 0.00771 ** \\
+sex (boy) & 0.12198 & 0.94147 & 0.130 & 0.90317 \\
+week:sex (boy) & 0.08387 & 0.10445 & 0.803 & 0.46700 \\
+--- &  &  &  &  \\
+Signif. codes: & 0 '***' & 0.001 '**' & 0.01 '*' & 0.05 '.' 0.1 ' ' 1
+\end{tabular}
+\caption{Estimated coefficients for head circumference.}
+\label{tab:head_c}
+\end{table}
+
+\clearpage
+
+\subsection{Could baby size and weight explain the difference in concentration?}
+
+We established that, in our study, baby weight and head circumference do not depend on gender, so these variables do not explain the gender differences in concentration. Nonetheless, it could be that bigger babies have higher concentrations - in spite of their gender. Consider the following models for the concentration:
+
+\begin{equation} \label{eq:model4}
+  AA = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ weight + \alpha_{id}
+\end{equation}
+
+and
+
+\begin{equation} \label{eq:model5}
+  AA = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ head + \alpha_{id}.
+\end{equation}
+
+In these models I study the effect of weight and head circumference while controlling for two known effects: sex and week.
 
 \newpage
 \bibliographystyle{plain}
