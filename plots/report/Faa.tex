@@ -176,7 +176,7 @@ In figures \ref{fig:NEAA_coeff} and \ref{fig:NEAA_coeff_detail}, there are $4$ s
 
 In the study \cite{NutrientsDutch}, they could not measure CYS. Here it has a significant difference.
 
-Finally, the sign of TYR is different from that in \cite{NutrientsDutch} but here it has a signinficant effect.
+Finally, the sign of TYR is different from that in \cite{NutrientsDutch} but here it has a significant effect.
 
 \begin{figure}[!htb]
   \includegraphics[width= \textwidth]{../sex/NEAA_coeff.png}
@@ -312,7 +312,7 @@ Besides the concentrations, sex and group, baby weights and head circumferences 
   \label{fig:head_c}
 \end{figure}
 
-Figures \ref{fig:weight} and \ref{fig:head_c} show the mean weight and mean head circumference over time for girls and boys. There are some differences but they are non significant. For example, the estimated coefficients for the regression models:
+Figures \ref{fig:weight} and \ref{fig:head_c} show the mean weight and mean head circumference over time for girls and boys. There are some differences but it is very uncertain if they are non zero. For example, the estimated coefficients for the regression models:
 
 \begin{equation*}
 weight = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ week \times sex
@@ -324,7 +324,7 @@ and
 head = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ week \times sex
 \end{equation*}
 
-are displayed in tables \ref{tab:weight} and \ref{tab:head_c}. Notice that these models do not have an id effect since we are analyzing mean weights and head circumferences.
+are displayed in tables \ref{tab:weight} and \ref{tab:head_c}. There seems to be a difference for boys and girls but this effect is non significant. Notice that these models do not have an id effect since we are analyzing mean weights and head circumferences.
 
 \begin{table}[!htb]
 \begin{tabular}{lllll}
@@ -358,19 +358,18 @@ Signif. codes: & 0 '***' & 0.001 '**' & 0.01 '*' & 0.05 '.' 0.1 ' ' 1
 
 \subsection{Could baby size and weight explain the difference in concentration?}
 
-We established that, in our study, baby weight and head circumference do not depend on gender, so these variables do not explain the gender differences in concentration. Nonetheless, it could be that bigger babies have higher concentrations - in spite of their gender. Consider the following models for the concentration:
+We established that, in our study, baby weight and head circumference do not depend on gender. This variables cannot explain the difference in concentration found in part I. In fact, I argue that the concentration does not depend on weight and head circumference at all. The effect of head circumference one might find by fitting a model like:
 
-\begin{equation} \label{eq:model4}
-  AA = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ weight + \alpha_{id}
-\end{equation}
+\begin{equation*}
+  AA = \alpha_0 + \alpha_1 \ sex + \alpha_2 \ week + \alpha_3 \ head + \alpha_{id}
+\end{equation*}
 
-and
+is due to the fact that babies grow over time: $\alpha_3$ is a $week$ effect not a size effect - dispite its units. In our data set, the correlation between $week$ and the average head circumference is bigger than $0.99$. The same type of reasoning can be applied to the $weight$ variable. Its correlation with $week$ is over $0.95$.
 
-\begin{equation} \label{eq:model5}
-  AA = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ head + \alpha_{id}.
-\end{equation}
 
-In these models I study the effect of weight and head circumference while controlling for two known effects: sex and week.
+\section{Teens and Adults}
+
+
 
 \newpage
 \bibliographystyle{plain}
