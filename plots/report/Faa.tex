@@ -361,7 +361,7 @@ Signif. codes: & 0 '***' & 0.001 '**' & 0.01 '*' & 0.05 '.' 0.1 ' ' 1
 We established that, in our study, baby weight and head circumference do not depend on gender. This variables cannot explain the difference in concentration found in part I. In fact, I argue that the concentration does not depend on weight and head circumference at all. The effect of head circumference one might find by fitting a model like:
 
 \begin{equation*}
-  AA = \alpha_0 + \alpha_1 \ sex + \alpha_2 \ week + \alpha_3 \ head + \alpha_{id}
+  AA = \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ head + \alpha_{id}
 \end{equation*}
 
 is due to the fact that babies grow over time: $\alpha_3$ is a $week$ effect not a size effect - dispite its units. In our data set, the correlation between $week$ and the average head circumference is bigger than $0.99$. The same type of reasoning can be applied to the $weight$ variable. Its correlation with $week$ is over $0.95$.
