@@ -1,16 +1,16 @@
 # Fdb version 3
-["bibtex Faa"] 1553877465 "Faa.aux" "Faa.bbl" "Faa" 1553877473
-  "Faa.aux" 1553877467 10624 741980c34617d32777671c7ed64a3994 ""
+["bibtex Faa"] 1553892412 "Faa.aux" "Faa.bbl" "Faa" 1553892421
+  "Faa.aux" 1553892414 12286 2b1d72f0f953cd936052b74e0e0c613b ""
   "c:/texlive/2017/texmf-dist/bibtex/bst/base/plain.bst" 1506774413 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
   "thebibliography.bib" 0 -1 0 ""
   (generated)
   "Faa.blg"
   "Faa.bbl"
-["xdvipdfmx"] 1553877468 "Faa.xdv" "Faa.pdf" "Faa" 1553877473
-  "Faa.xdv" 1553877467 43980 539df48496d3e6388bf1c3c794fc35a0 "xelatex"
+["xdvipdfmx"] 1553892415 "Faa.xdv" "Faa.pdf" "Faa" 1553892421
+  "Faa.xdv" 1553892414 50188 d16f38e801056cf6e4d48fd94fe64c1a "xelatex"
   (generated)
   "Faa.pdf"
-["xelatex"] 1553877465 "Faa.tex" "Faa.xdv" "Faa" 1553877473
+["xelatex"] 1553892412 "Faa.tex" "Faa.xdv" "Faa" 1553892421
   "../sex/EAA_coeff.png" 1553178500 50259 22b4e0c4c6d2a944626b2817072fc1b6 ""
   "../sex/NEAA_coeff.png" 1553178490 60503 8ae5d516e7b91382ed94e40f7619b250 ""
   "../sex/NEAA_coeff_detail.png" 1553607373 57256 45d6e4dfd3b30c34b2243e22d030b00c ""
@@ -22,6 +22,9 @@
   "../sexweek/NEAA_SW_SW_coeff.png" 1553286219 63474 1e1afd1b816fdbbab941b8700826be14 ""
   "../sexweek/NEAA_boys.png" 1553608003 127113 9f699eea67fbb9cc65ffc7b3b7942e53 ""
   "../sexweek/NEAA_girls.png" 1553608020 67730 8f2157d90207b256fb06e21d5f94291f ""
+  "../wANDhc/group_E.png" 1553891832 74791 a9a495540e572052adf8452d8a5e141c ""
+  "../wANDhc/group_NE.png" 1553891842 84021 d449cfd5bd3f633d013c54c5ce1996ef ""
+  "../wANDhc/group_NE_detail.png" 1553891856 80345 fd58cbee2ac4917ec1e7d278f696cb89 ""
   "../wANDhc/head_c.png" 1553786492 51023 86bcb53bf512c6744a9a11c791f4cda6 ""
   "../wANDhc/weight.png" 1553786484 46826 f254002abb78597a98ce378ec1d9f6df ""
   "../week/EAA_W_coeff.png" 1553201967 54062 830427763f02369f1cf66c75951518bf ""
@@ -31,10 +34,10 @@
   "../week/NEAA_W_coeff_detail.png" 1553201947 59550 2cfe2cd7e4278040b3bacadbfce45fec ""
   "../week/NEAA_complex.png" 1553608243 75894 40508cdc69dc136aa3488380a059039c ""
   "../week/NEAA_simple.png" 1553608266 101349 098f34893801f85ee865cc4b39b1552e ""
-  "Faa.aux" 1553877467 10624 741980c34617d32777671c7ed64a3994 ""
+  "Faa.aux" 1553892414 12286 2b1d72f0f953cd936052b74e0e0c613b ""
   "Faa.bbl" 0 -1 0 "bibtex Faa"
-  "Faa.out" 1553877467 1299 5168bedeb63e7d90fefacb17aed1a970 ""
-  "Faa.tex" 1553877463 19197 574d1fcc163b5f66b1381ec479c2293c ""
+  "Faa.out" 1553892414 1299 5168bedeb63e7d90fefacb17aed1a970 ""
+  "Faa.tex" 1553892411 21996 79cd0fd379d1fa2b58fe3ee61f7f429c ""
   "c:/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1506776754 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1506784548 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
   "c:/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1506773693 1004 54797486969f23fa377b128694d548df ""
@@ -170,7 +173,7 @@
   "c:/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty" 1506784334 55589 34128738f682d033422ca125f82e5d62 ""
   "c:/texlive/2017/texmf-var/web2c/xetex/xelatex.fmt" 1506784699 3704782 a11ea079aacab8633ff92e4f66e20a63 ""
   (generated)
-  "Faa.aux"
+  "Faa.out"
   "Faa.log"
   "Faa.xdv"
-  "Faa.out"
+  "Faa.aux"

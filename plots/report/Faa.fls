@@ -258,4 +258,7 @@ INPUT ../sexweek/NEAA_boys.png
 INPUT ../sexweek/NEAA_girls.png
 INPUT ../wANDhc/weight.png
 INPUT ../wANDhc/head_c.png
+INPUT ../wANDhc/group_E.png
+INPUT ../wANDhc/group_NE.png
+INPUT ../wANDhc/group_NE_detail.png
 INPUT Faa.aux

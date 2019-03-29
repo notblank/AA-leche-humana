@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  29 MAR 2019 11:37
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  29 MAR 2019 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -754,22 +754,22 @@ File: ../week/NEAA_complex.png Graphic file (type bmp)
 <../week/NEAA_complex.png>
  [6] [7] [8] [9] [10]
 
-./Faa.tex:147: LaTeX Error: Bad math environment delimiter.
+./Faa.tex:145: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147   AA =  \[
+l.145   AA =  \[
                  \begin{cases}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Faa.tex:151: Missing \endgroup inserted.
+./Faa.tex:149: Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.151 \]
+l.149 \]
         
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -778,35 +778,35 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./Faa.tex:152: LaTeX Error: Bad math environment delimiter.
+./Faa.tex:150: LaTeX Error: Bad math environment delimiter.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \end{equation*}
+l.150 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./Faa.tex:152: LaTeX Error: \begin{document} ended by \end{equation*}.
+./Faa.tex:150: LaTeX Error: \begin{document} ended by \end{equation*}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \end{equation*}
+l.150 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./Faa.tex:152: Missing $ inserted.
+./Faa.tex:150: Missing $ inserted.
 <inserted text> 
                 $
-l.152 \end{equation*}
+l.150 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -814,18 +814,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Faa.tex:152: Display math should end with $$.
+./Faa.tex:150: Display math should end with $$.
 <to be read again> 
                    \endgroup 
-l.152 \end{equation*}
+l.150 \end{equation*}
                      
 The `$' that I just saw supposedly matches a previous `$$'.
 So I shall assume that you typed `$$' both times.
 
-./Faa.tex:152: Extra \endgroup.
+./Faa.tex:150: Extra \endgroup.
 <recently read> \endgroup 
                           
-l.152 \end{equation*}
+l.150 \end{equation*}
                      
 Things are pretty mixed up, but I think the worst is over.
 
@@ -868,18 +868,18 @@ File: ../wANDhc/weight.png Graphic file (type bmp)
 File: ../wANDhc/head_c.png Graphic file (type bmp)
 <../wANDhc/head_c.png>
 
-./Faa.tex:331: Missing $ inserted.
+./Faa.tex:329: Missing $ inserted.
 <inserted text> 
                 $
-l.331  & Estimate & Std. Error & t value & P\left
+l.329  & Estimate & Std. Error & t value & P\left
                                                  ( > |t| \right) \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Faa.tex:332: Extra }, or forgotten $.
+./Faa.tex:330: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.332 (
+l.330 (
        Intercept) & 3365.70 & 174.91 & 19.243 & 4.3e-05 *** \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -887,18 +887,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Faa.tex:332: Missing $ inserted.
+./Faa.tex:330: Missing $ inserted.
 <inserted text> 
                 $
-l.332 (
+l.330 (
        Intercept) & 3365.70 & 174.91 & 19.243 & 4.3e-05 *** \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Faa.tex:332: Missing } inserted.
+./Faa.tex:330: Missing } inserted.
 <inserted text> 
                 }
-l.332 (
+l.330 (
        Intercept) & 3365.70 & 174.91 & 19.243 & 4.3e-05 *** \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -906,18 +906,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./Faa.tex:345: Missing $ inserted.
+./Faa.tex:343: Missing $ inserted.
 <inserted text> 
                 $
-l.345  & Estimate & Std. Error & t value & P\left
+l.343  & Estimate & Std. Error & t value & P\left
                                                  ( > |t| \right)\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Faa.tex:346: Extra }, or forgotten $.
+./Faa.tex:344: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.346 (
+l.344 (
        Intercept) & 34.07687 & 0.66572 & 51.188 & 8.72e-07 *** \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -925,18 +925,18 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./Faa.tex:346: Missing $ inserted.
+./Faa.tex:344: Missing $ inserted.
 <inserted text> 
                 $
-l.346 (
+l.344 (
        Intercept) & 34.07687 & 0.66572 & 51.188 & 8.72e-07 *** \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./Faa.tex:346: Missing } inserted.
+./Faa.tex:344: Missing } inserted.
 <inserted text> 
                 }
-l.346 (
+l.344 (
        Intercept) & 34.07687 & 0.66572 & 51.188 & 8.72e-07 *** \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -949,22 +949,31 @@ my insertion and my current dilemma will both disappear.
 ] [25] [26] [27] [28
 
 ]
+File: ../wANDhc/group_E.png Graphic file (type bmp)
+<../wANDhc/group_E.png>
+File: ../wANDhc/group_NE.png Graphic file (type bmp)
+<../wANDhc/group_NE.png>
+File: ../wANDhc/group_NE_detail.png Graphic file (type bmp)
+<../wANDhc/group_NE_detail.png>
+ [29]
 No file Faa.bbl.
-[29]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 386.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 386.
+[30] [31] [32] [33
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 440.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 440.
  (./Faa.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 386.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 386.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 386.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 440.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 440.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 440.
  ) 
 Here is how much of TeX's memory you used:
- 28195 strings out of 492998
- 530826 string characters out of 6137851
- 578261 words of memory out of 5000000
- 31852 multiletter control sequences out of 15000+600000
+ 28213 strings out of 492998
+ 531205 string characters out of 6137851
+ 578907 words of memory out of 5000000
+ 31867 multiletter control sequences out of 15000+600000
  563561 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,10n,54p,10369b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Faa.xdv (29 pages, 43980 bytes).
+Output written on Faa.xdv (33 pages, 50188 bytes).
