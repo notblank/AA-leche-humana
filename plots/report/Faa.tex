@@ -30,7 +30,7 @@ It is divided into $3$ parts:
 
 The first is about understanding the data. I try to describe and motivate the models, significant results and thier relationship with existing literature and medical knowledge.
 
-In the second, the models are used to understand what should we be looking forward to in future experiments. Here, I take the models seriously and device possible predictions that are compatible with current knowledge.
+In the second, first I analyze the relationship bewteen concentration and baby size and weight. Then, I analyze whether concentration varies if the mother is an adult or a teen.
 
 The third part is about missing data. I mention what I did with the missing patients.
 
@@ -287,7 +287,7 @@ In both ARG and PRO (figure \ref{fig:NEAA_girls}), the concentration for girls d
 
 \clearpage
 
-\part{What to look forward in future experiments?}
+\part{New variables: concentration weight, size and group. }
 
 Some aspect of the data are not discussed in part I. First I explore if the AA concentration is due to differences in baby weights and sizes. Then, I study the role of the group variable in the concentration.
 
@@ -356,7 +356,7 @@ Signif. codes: & 0 '***' & 0.001 '**' & 0.01 '*' & 0.05 '.' 0.1 ' ' 1
 
 \subsection{Could baby size and weight explain the difference in concentration?}
 
-We established that, in our study, baby weight and head circumference do not depend on gender. This variables cannot explain the difference in concentration due to gender found in part I.
+We established that, in our study, baby weight and head circumference do not depend on gender. This variables cannot explain the differences in concentration between boys and girls found in part I.
 
 Regarding the relationship bewteen size and concentration, it is possible to argue that the concentration does not depend on weight and head circumference at all and that the effect of head circumference one might find by fitting a model like:
 
@@ -374,9 +374,9 @@ At any rate, $time$ and $weight$ or $head$ variables can be interchanged in the 
 
 There is an additional variable called $group$ that tells us if the mother was a $teen$ or an $adult$ when she gave birth. Could this fact affect the concentration too?
 
-In this section the $group$ is only present for adults. As with $sex$, it represents the difference beween the two groups. When its coeffient is positive, the concentration is greater for babies with adult mothers.
+In this section the $group$ variable is only present for adults. As with $sex$, it represents the difference beween the milk of adult and teen mothers. When its coeffient is positive, the concentration is greater for babies with adult mothers.
 
-First, it is important to notice almost $2/3$ of the babies are boys for teen mothers while this is true for less than half of the babies for adult mothers. This can be read off table \ref{tab:sexgroup}.
+First, it is important to notice that almost $2/3$ of the babies are boys for teen mothers while this is true for less than half of the babies for adult mothers. This can be read off table \ref{tab:sexgroup}.
 
 \begin{table}[H]
   \centering
@@ -389,7 +389,7 @@ First, it is important to notice almost $2/3$ of the babies are boys for teen mo
   \label{tab:sexgroup}
 \end{table}
 
-Lets exagerate the results on table \ref{tab:sexgroup} and imagine for a moment that $sex = -group$. Then,
+Lets exagerate the fact in table \ref{tab:sexgroup} adults have less boys and imagine for a moment that $sex = -group$. Then,
 
 \begin{align}
 AA &= \alpha_0 + \alpha_1 \ week + \alpha_2 \ sex + \alpha_3 \ group + \alpha_{id} \label{eq:model4} \\
@@ -421,6 +421,10 @@ meaning, that if this relationship is true, we should have that $\alpha_2 - \alp
   \caption{Detail of figure \ref{fig:group_NE}.}
   \label{fig:group_NE_detail}
 \end{figure}
+
+\clearpage
+
+\part{Missing Data}
 
 
 \newpage
