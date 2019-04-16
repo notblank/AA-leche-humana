@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  1 APR 2019 09:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.9.30)  16 APR 2019 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -960,20 +960,20 @@ File: ../wANDhc/group_NE_detail.png Graphic file (type bmp)
 ]
 No file Faa.bbl.
 [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 446.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 446.
  (./Faa.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 444.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 444.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 446.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 446.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 446.
  ) 
 Here is how much of TeX's memory you used:
  28213 strings out of 492998
  531205 string characters out of 6137851
- 578995 words of memory out of 5000000
+ 579076 words of memory out of 5000000
  31867 multiletter control sequences out of 15000+600000
  563561 words of font info for 54 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  55i,10n,54p,10369b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Faa.xdv (34 pages, 50764 bytes).
+Output written on Faa.xdv (34 pages, 50948 bytes).
